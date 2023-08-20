@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class kg
+public class cross
 {
     public static void main(String[] args)
     {
@@ -7,7 +7,6 @@ public class kg
         int x=sc.nextInt();
         int y=sc.nextInt();
         int z=sc.nextInt();
-        int p=(z-y)/x;
-        System.out.println(p);
+        System.out.println((z-y)/x);
     }
 }
