@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class cap
+public class cross
 {
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        float a=sc.nextFloat();
-        float b=sc.nextFloat();
-        float c=(a+b)/2;
-        System.out.printf("Average of %.0f and %.0f is: %.2f",a,b,c);
+        float x=sc.nextFloat();
+        float y=sc.nextFloat();
+        double s= (x+y)/2;
+        System.out.printf("Average of %.0f and %.0f is: %.2f",x,y,s);
     }
 }
